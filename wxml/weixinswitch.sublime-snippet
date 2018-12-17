@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
- <switch checked="${1:false}" bindchange="${2:switch1Change}" type="${3:switch}${4:checkbox}"/>
+<switch checked="${1:false}" bindchange="${2:switch1Change}" type="${3:switch}${4:checkbox}"/>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>wxswitch</tabTrigger>
