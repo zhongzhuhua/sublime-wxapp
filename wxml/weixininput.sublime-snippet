@@ -4,6 +4,6 @@
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>wxinput</tabTrigger>
-	<description>微信小程序输入框组件</description>ere the snippet will trigger -->
+	<description>微信小程序输入框组件</description>
 	<!-- <scope>source.python</scope> -->
 </snippet>
