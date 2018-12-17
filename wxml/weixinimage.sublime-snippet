@@ -1,0 +1,11 @@
+<snippet>
+	<content>
+		<![CDATA[
+ <image style="${1:style}" mode="${2:scaleToFill}${3:aspectFit}${4:aspectFill}${5:bottom...}" src="{{${6:url}}}" binderror="${7:loaderrorEvent}" bindload="${8:loadEvent}" />
+      
+]]></content>
+	<tabTrigger>wximage</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.wxml</scope>
+	<description>微信小程序图片</description>
+</snippet>

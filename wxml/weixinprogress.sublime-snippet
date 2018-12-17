@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<progress percent="{{${2:10}}}" show-info="{{${4:false}}}" stroke-width="${5:6}" color="${6:#ff00ff}" active="${7:false}"/>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wxprogress</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.wxml</scope>
+	<description>微信小程序进度框组件</description>
+</snippet>

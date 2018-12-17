@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<radio-group class="${1:radio-group}" bindchange="${2:radioChange}">
+  <label class="${3:radio}" wx:for="{{${4:items}}}">
+    <radio value="{{${5:item.name}}}" checked="{{${6:item.checked}}}"/>{{${7:item.value}}}
+  </label>
+</radio-group>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wxrb</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.wxml</scope>
+	<description>微信小程序单选按钮组件</description>ere the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

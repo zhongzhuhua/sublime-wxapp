@@ -1,0 +1,32 @@
+<snippet>
+	<content><![CDATA[
+<map longitude="{{${1:longitude}}}" latitude="{{${2:latitude}}}" markers="{{${3:markers}}}" covers="{{${4:covers}}}" style="${5:width: 375px; height: 200px;}"></map>
+//地图上的标记和覆盖物的数据,可根据自己的需要修改(需要copy到*.js中)
+data: {
+	longitude:125,
+	latitude:23,
+    markers: [{
+      latitude: 23.099994,
+      longitude: 113.324520,
+      name: 'T.I.T 创意园',
+      desc: '我现在的位置'
+    }],
+    covers: [{
+      latitude: 23.099794,
+      longitude: 113.324520,
+      iconPath: '../images/car.png',
+      rotate: 10
+    }, {
+      latitude: 23.099298,
+      longitude: 113.324129,
+      iconPath: '../images/car.png',
+      rotate: 90
+    }]
+  }
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wxmap</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.wxml</scope>
+	<description>微信小程序地图组件</description>
+</snippet>

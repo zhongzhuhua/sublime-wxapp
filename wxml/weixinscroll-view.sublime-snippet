@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<scroll-view scroll-y="${1:false}" scroll-x="${2:false}" upper-threshold="${3:50}" lower-threshold="${4:50}" scroll-top="${5:10}" scroll-left="${6:10}" bindscrolltoupper="${7:upper}" bindscrolltolower="${8:lower}" bindscroll="${9:scroll}" scroll-into-view="{{${10:toView}}}">
+    <block wx:for='{{${11:arr}}}'>
+        <view>
+            ${12:{{index}}},${13:{{item}}
+        </view>
+    </block>
+  </scroll-view>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>weixinscroll-view</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.wxml</scope>
+	<description>微信小程序滚动组件</description>
+</snippet>

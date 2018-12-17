@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<input value="${1:内容}" type="${2:text}${3:number}${4:idcard}${5:digit}${6:time}${7:date}" password="${8:false}" placeholder="${8:占位符}" placeholder-style="${9:style}" placeholder-class="${10:class}" disabled="${11:false}" maxlength="${12:140}" auto-focus="${13:false}" focus="${14:false}" bindchange="${15:focusGoEvent}" bindinput="${16:valueChangeEvent}" bindfocus="${17:focusComeEvent}" bindblur="${18:blurEvent}"/>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wxinput</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.wxml</scope>
+	<description>微信小程序输入框组件</description>ere the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

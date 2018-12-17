@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<picker mode="time" value="${1:hh}:${2:mm}" start="${3:hh}:${4:mm}" end="${5:hh}:${6:mm}" bindchange="${7:timeChangeEvent}">
+</picker>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wxpickertime</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.wxml</scope>
+	<description>微信小程序时间选择组件</description>ere the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

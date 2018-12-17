@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<modal title="${1:标题}" confirm-text="${2:confirm}" cancel-text="${3:cancel}" hidden="{{${4:modalHidden}}}" bindconfirm="${5:modalconfirmChange}" bindcancel="${6:modalcanceChange}">
+  ${7:这是对话框的内容。}
+</modal>
+]]></content>
+	<tabTrigger>wxmodal</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.wxml</scope>
+	<description>微信小程序模态框</description>
+</snippet>

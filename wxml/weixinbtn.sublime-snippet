@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<button size="${1:default}${2:mini}" type="${3:default}${4:primary}${5:warn}" plain="${6:false}" disable="${7:false}" loading="${8:false}" form-type="${9:none}${10:submit}${11:reset}" hover-class="${12:button-hover}">
+	${13:text}
+</button>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wxbtn</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.wxml</scope>
+	<description>微信小程序按钮组件</description>ere the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

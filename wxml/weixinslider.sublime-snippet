@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<slider min="{{${1:min}}}" max="{{${2:max}}}" step="{{${3:step}}}" disabled="{{${4:false}}}" value="{{${5:currentValue}}}" show-value="{{${6:false}}}"  bindchange="${7:slider1change}" />
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wxslider</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.wxml</scope>
+	<description>微信小程序滑块组件</description>
+	<!-- <scope>source.python</scope> -->
+</snippet>

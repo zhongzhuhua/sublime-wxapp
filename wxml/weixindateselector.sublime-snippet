@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<picker mode="date" value="${1:yyyy}-${2:MM}-${3:dd}" start="${4:yyyy}-${5:MM}-${6:dd}" end="${7:yyyy}-${8:MM}-${9:dd}" bindchange="${10:timeChangeEvent}" fields="${11:day}">
+</picker>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wxpickerdate</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.wxml</scope>
+	<description>微信小程序时间选择组件</description>ere the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content>
+		<![CDATA[
+<toast hidden="{{${1:toast1Hidden}}}" bindchange="${2:toast1Change}" duration="{{${3:duration}}}">
+	{{${4:text}}}
+</toast>
+]]></content>
+	<tabTrigger>wxtoast</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.wxml</scope>
+	<description>微信小程序吐司</description>
+</snippet>

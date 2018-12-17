@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<action-sheet hidden="{{${1:actionSheetHidden}}}" bindchange="${2:actionSheetChange}">
+	<block wx:for="{{${3:actionSheetItems}}}">
+		<action-sheet-item class="item" bindtap="${4:bindItemTap}" data-name="{{${5:item}}}">{{${6:item}}}</action-sheet-item>
+	</block>
+<action-sheet-cancel class="cancel">取消</action-sheet-cancel>
+</action-sheet>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wxsheet</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.wxml</scope>
+	<description>微信小程序sheet组件</description>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+	<content>
+		<![CDATA[
+ <loading hidden="{{${1:hidden}}}" bindchange="${2:loadingChange}">
+    {{${3:text}}}
+  </loading>
+]]></content>
+	<tabTrigger>wxloading</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.wxml</scope>
+	<description>微信小程序加载框</description>
+</snippet>

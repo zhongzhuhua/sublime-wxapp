@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+<swiper indicator-dots="${1:false}"
+  autoplay="${2:false}" current="${3:0}" interval="${4:5000}" duration="${5:1000}" bindchange="${6:event}">
+  <block wx:for="{{${7:imgUrls}}}">
+    <swiper-item>
+      <image src="{{${8:item}}}" class="slide-image" width="355" height="150"/>
+    </swiper-item>
+  </block>
+</swiper>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wxswpier</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.wxml</scope>
+	<description>微信小程序轮播组件</description>
+</snippet>

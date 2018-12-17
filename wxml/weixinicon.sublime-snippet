@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+ <icon type="${1:success|success_no_circle|info|warn|waiting|cancel|download|search|clear}" size="${2:23}" color="${3:#ff00ff}"/>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>wxicon</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.wxml</scope>
+	<description>微信小程序图标组件</description>
+</snippet>
