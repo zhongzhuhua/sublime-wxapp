@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+<slot></slot>
+]]></content>
+	<tabTrigger>wxslot</tabTrigger>
+	<description>微信小程序数据选择组件</description>
+</snippet>

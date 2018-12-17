@@ -6,6 +6,5 @@
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>wxbtn</tabTrigger>
-	<description>微信小程序按钮组件</description>ere the snippet will trigger -->
-	<!-- <scope>source.python</scope> -->
+	<description>微信小程序按钮组件</description>
 </snippet>
