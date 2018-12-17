@@ -26,7 +26,5 @@ data: {
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>wxmap</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>text.wxml</scope>
 	<description>微信小程序地图组件</description>
 </snippet>

@@ -9,7 +9,5 @@
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>wxsheet</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>text.wxml</scope>
 	<description>微信小程序sheet组件</description>
 </snippet>
