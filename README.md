@@ -9,6 +9,7 @@
 
     打开sublime插件目录，把该文件放置到插件目录下即可
     sublime 打开 wxml 文件，在右下角点击文字，选择 open all with 的选项，选择 wxml，其他的依次类推
+    由于 wxml 目前没有 html emmet 的设置，如果有 vue component 视图，则用 vue 打开效果会更好
 
 
 ## 项目来源
